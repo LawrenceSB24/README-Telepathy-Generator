@@ -1,7 +1,7 @@
 {
   "name": "readme-telepathy-generator",
   "version": "1.0.0",
-  "description": "Required dependencies for README generator",
+  "description": "A basic README generator (disregard the telepathy in the name) that generates a README based on user inputs in the cmd line",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
@@ -10,10 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/LawrenceSB24/README-Telepathy-Generator.git"
   },
-  "keywords": [
-    "inquirer",
-    "fs"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
