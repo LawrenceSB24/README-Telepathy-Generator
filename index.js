@@ -80,7 +80,7 @@ const generateREADME = ({title, description, installation, usage, contribute, te
 `
 # ${title}
 
-![badge](https://img.shields.io/github/languages/lernantino/badge)
+![badmath](https://img.shields.io/github/languages/lernantino/badmath)
 
 ## Description
 
@@ -88,12 +88,12 @@ ${description}
 
 ## Table of Contents
 
-- [Installation] (#installation)
-- [Usage] (#usage)
-- [Future Contributions] (#contributions)
-- [Contact Information] (#contact)
-- [Testing] (#test)
-- [License] (#licence)
+- ![Installation] (#installation)
+- ![Usage] (#usage)
+- ![Future Contributions] (#contributions)
+- ![Contact Information] (#contact)
+- ![Testing] (#test)
+- ![License] (#licence)
 
 ## Installation
 ${installation}
@@ -108,8 +108,8 @@ ${contribute}
 ${test}
 
 ## For more informtaion/support, contact information is provide below
-Email: lawrsblundo22@outlook.com
-GitHub: ![GitHub Homepage](https://github.com/LawrenceSB24)
+### Email: lawrsblundo22@outlook.com
+### GitHub: ![GitHub Homepage](https://github.com/LawrenceSB24)
 
 ## License
 This application and its contents are licensed under the ${license}
