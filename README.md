@@ -1,6 +1,6 @@
 # README Telepathy Generator
 
-[![license](https://img.shields.io/github/license/LawrenceSB24/captain-n3m0.svg?style=flat-square)](https://github.com/LawrenceSB24/captain-n3m0/blob/master/LICENSE)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 Greetings! Welcome to the README telepathy generator!
 
