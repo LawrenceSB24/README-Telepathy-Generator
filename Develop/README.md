@@ -1,32 +1,32 @@
 
-# README Telepathy Generator
+# Baseball Team Generator
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+![License: MIT License](https://img.shields.io/badge/License-MIT License.svg)
 
 ## Description
 
-This is a Node.js project that creates a README for a project using the command line
+A random team generator that will create baseball teams for different counties
 
 ## Table of Contents
 
-- ![Installation] (#installation)
-- ![Usage] (#usage)
-- ![Future-Contributions] (#contributions)
-- ![Contact] (#contact)
-- ![Testing] (#test)
-- ![License] (#licence)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Future-Contributions](#Future-Contributions)
+- [Contact](#Contact)
+- [Testing](#Test)
+- [License](#Licence)
 
 ## Installation
-Install the inquirer package by typing "npm i inquirer", then type "node index.js" to run the application.
+Run "npm i inquirer" to install the Inquirer package and "npm init" to create a package.json for your dependencies before you install your packages.
 
 ## Usage
-When the prompts are presented, the user can type in the information about their project in the command line.
+Simply run "node index.js" in the command file to run the application.
 
 ## Future-Contributions
-TBA
+Contact me at my GitHub page or my email
 
 ## Testing
-Simply type "node index.js".
+run "npm test" in the command line
 
 ## Contact
 For futher information/support for the application, contact info is posted below
