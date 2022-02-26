@@ -1,6 +1,6 @@
 # README Telepathy Generator
 
-[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/LawrenceSB24/captain-n3m0.svg?style=flat-square)](https://github.com/LawrenceSB24/captain-n3m0/blob/master/LICENSE)
 
 Greetings! Welcome to the README telepathy generator!
 
