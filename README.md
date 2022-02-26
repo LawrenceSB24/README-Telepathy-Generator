@@ -1,8 +1,9 @@
 # README Telepathy Generator
 
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
+
 Greetings! Welcome to the README telepathy generator!
 
-....
 
 Ok its not actually telepathic but it is interactive.
 =======================================================================
@@ -89,3 +90,8 @@ If you have any questions regarding this application or how you can further cont
 
 #### Email: lawrs22@gmail.com
 #### [GitHub](https://github.com/LawrenceSB24)
+
+======================================================================
+
+## License
+This application is issued under the GNU General Public License
