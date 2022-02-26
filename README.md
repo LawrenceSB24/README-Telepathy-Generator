@@ -1,37 +1,91 @@
-
 # README Telepathy Generator
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+Greetings! Welcome to the README telepathy generator!
+
+....
+
+Ok its not actually telepathic but it is interactive.
+=======================================================================
 
 ## Description
 
-This is an application that allows users to generate their own custom README for their specific project using the command line.
+So here is the story:
 
-## Table of Contents
+```
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+```
 
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Future-Contributions](#Future-Contributions)
-- [Contact](#Contact)
-- [Testing](#Test)
-- [License](#Licence)
+And here is our criteria that we need to satisfy for this project
+
+```
+GIVEN a command-line application that accepts user input
+
+WHEN I am prompted for information about my application repository
+
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+
+WHEN I enter my project title
+
+THEN this is displayed as the title of the README
+
+WHEN I enter a description, installation instructions, usage information, contributution guidelines, and test instructions
+
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contirbuting, and Tests
+
+WHEN I choose a license for my application with a list of options
+
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+
+WHEN I enter my GitHub username
+
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+
+WHEN I enter my email address
+
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+
+WHEN I click on the links in the Table of Contents
+
+THEN I am taken to the corresponding section of the README
+```
+
+Now the criteria section is formatted to make it easier to read. With that our of the way, time to head into the actual functionality.
+
+=========================================================================
 
 ## Installation
-First, you need to install the Inquirer package. To accomplish this, type in "npm i inquirer" into the command line. If there is the case where you do not have npm installed then type in "npm i" so that you can install all the available packages for any other projects that require more than one package.
+
+So, how employers can use this application to generate their own custom READMEs is simple.
+
+First, you need to make sure that you have a command-line interface to run the application. This can be Git Bash or Powershell.
+
+Second, you need to install the Inquirer package to have the application generate the prompts for the user to answer. All one needs to do is type `npm i inquirer` into the command line and the Inquirer package will be installed.
+
+Finally, you need to create a `package.json` file that will list in the necessary dependencies. You can create one from scratch by typing in `npm init` into the command line and it will generate a json package for your dependencies.
+
+=========================================================================
 
 ## Usage
-When the application is run by typing "node index.js", there will be a series of prompts that inquire the user about information about their project. Once all the prompts have been answered, then two outcomes are possible: Either the message "README generated!" will appear showing that the file was successfully created, or there will be an error that describes what went wrong during the intializing process.
 
-## Future-Contributions
-Currently, there is not much can be contirbuted to the application as of now. However, there can be future suggestions that can be incorporated towards further improving the functionality of the generator down the line. If you have any suggestions, contact me at the email in the contact me section or you can message me on my GitHub homepage.
+To run the README generator in the command-line, all one needs to do is run the command `node index.js`.
 
-## Testing
-Simpply type in "node index.js" to test this project.
+After you run the application, then you are presented with prompts that inquire about what your project will be. 
 
-## Contact
-For futher information/support for the application, contact info is posted below
-### Email: lawrsblundo22@outlook.com
-### GitHub: ![GitHub Homepage](https://github.com/LawrenceSB24)
+Once you answer all of the prompts, then all of the information is incorporated into the README in different sections (all of which are accessible in a table of contents). 
 
-## License
-This application and its contents are licensed under the Apache license 2.0
+Once the information from the user is entered, then an option for choosing the license for the project to be covered under. The list of licenses is provided by GitHub when users created a repo for their project. 
+
+After choosing the license, then the badge that corresponds with the specific license that you choose.
+
+Once everything has been entered in, then the generator will create a professional README file with the message "README generated" produced in the command line.
+
+There will be a sample README and (If everything goes according to plan) a video that will showcase the README generator itself
+==================================================================
+
+## Questions
+If you have any questions regarding this application or how you can further contribute to the improvement of the application, then you can contact me at:
+
+Email: lawrs22@gmail.com
+![GitHub](https://github.com/LawrenceSB24)
