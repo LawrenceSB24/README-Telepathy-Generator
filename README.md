@@ -1,36 +1,37 @@
 
 # README Telepathy Generator
 
-![badge](https://img.shields.io/github/languages/lernantino/badge)
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
 ## Description
 
-This is a introductory project that creates a professional README using command line prompts. This is accomplished using Node.js and the Inquirer package.
+This is a Node.js project that creates a README for a project using the command line.
 
 ## Table of Contents
 
-- [Installation] (#installation)
-- [Usage] (#usage)
-- [Future Contributions] (#contributions)
-- [Contact Information] (#contact)
-- [Testing] (#test)
-- [License] (#licence)
+- ![Installation] (#installation)
+- ![Usage] (#usage)
+- ![Future-Contributions] (#contributions)
+- ![Contact] (#contact)
+- ![Testing] (#test)
+- ![License] (#licence)
 
 ## Installation
-To properly install this porject, two steps must be performed.First, install the inquirer package by typing in the command line "npm i inquirer". Second, simply type in "node index.js" to run the application.
+Install the inquirer package by typing "npm i inquirer", then type "node index.js" to run the application.
 
 ## Usage
-Type in the specified prompts for generating the different sections for your README. Once all prompts have been answered, then two possibilities will occur. The positive outcome will be the message "README generated" will appear indicating that all answers have been deemed valid and the README for your project has been successfully generated. The second outcome will be if there are any errors that occur during the generation, which will be shown based on the error function in the writeToFile function.
+When the prompts are presented, the user can type in the information about their project in the command line.
 
-## How you can contribute to future developement
-Currently, there are no further contributions that can be made, though that will change in the future.
+## Future-Contributions
+TBA
 
-## How to test your application
-Simply type in "node index.js" in the command line.
+## Testing
+Simply type "node index.js".
 
-## For more informtaion/support, contact information is provide below
-Email: lawrsblundo22@outlook.com
-GitHub: ![GitHub Homepage](https://github.com/LawrenceSB24)
+## Contact
+For futher information/support for the application, contact info is posted below
+### Email: lawrsblundo22@outlook.com
+### GitHub: ![GitHub Homepage](https://github.com/LawrenceSB24)
 
 ## License
-This application and its contents are licensed under the Apache license 2.0
+This application and its contents are licensed under the GNU General Public License v3.0
