@@ -128,6 +128,8 @@ If you have any questions about the application, please contact me at:
 
 ## License
 This application and its contents are licensed under the ${license}
+
+[![License](https://img.shields.io/badge/License-${license}.svg)]
 `
 
 // List of badges for present license
