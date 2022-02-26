@@ -80,7 +80,7 @@ const generateREADME = ({title, description, installation, usage, contribute, te
 `
 # ${title}
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+![License: ${license}](https://img.shields.io/badge/License-${license}.svg)
 
 ## Description
 
