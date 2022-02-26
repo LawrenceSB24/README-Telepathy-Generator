@@ -88,12 +88,12 @@ ${description}
 
 ## Table of Contents
 
-- ![Installation] (#installation)
-- ![Usage] (#usage)
-- ![Future-Contributions] (#contributions)
-- ![Contact] (#contact)
-- ![Testing] (#test)
-- ![License] (#licence)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Future-Contributions](#Future-Contributions)
+- [Contact](#Contact)
+- [Testing](#Test)
+- [License](#Licence)
 
 ## Installation
 ${installation}
