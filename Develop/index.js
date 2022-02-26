@@ -51,20 +51,30 @@ inquire
             name: 'license',
             choices: [
                 'None',
-                'Apache license 2.0',
-                'GNU General Public License v3.0',
-                'MIT License',
-                'BSD 2-Clause "Simplified" License',
-                'BSD 3-Clause "New" or "Revised" License',
-                'Boost Software License 1.0',
-                'Creative Commons Zero v1.0 Universal',
-                'Eclipse Public License',
-                'GNU Affero General Public License v3.0',
-                'GNU General Public License v2.0',
-                'GNU Lesser General Public License v2.1',
-                'Mozilla Public License 2.0',
-                'The Unlicensed'
+                'Apache-license-2.0',
+                'GNU-General-Public-License-v3.0',
+                'MIT-License',
+                'BSD-2--Clause-"Simplified"-License',
+                'BSD-3--Clause-"New"-or-"Revised"-License',
+                'Boost-Software-License-1.0',
+                'Creative-Commons-Zero-v1.0-Universal',
+                'Eclipse-Public-License',
+                'GNU-Affero-General-Public-License v3.0',
+                'GNU-General-Public-License-v2.0',
+                'GNU-Lesser-General-Public-License-v2.1',
+                'Mozilla-Public-License-2.0',
+                'The-Unlicensed'
             ]
+        },
+        {
+            type: 'input',
+            message: 'What is your email?',
+            name: 'email'
+        },
+        {
+            type: 'input',
+            message: 'What is your GitHub username(?): ',
+            name: 'Github'
         }
     ])
 // Conditions for README file to be written
@@ -76,11 +86,11 @@ inquire
 });
 
 // function to generate README file based on input given by the user
-const generateREADME = ({title, description, installation, usage, contribute, test, license}) =>
+const generateREADME = ({title, description, installation, usage, contribute, test, license, email, Github}) =>
 `
 # ${title}
 
-![License: ${license}](https://img.shields.io/badge/License-${license}.svg)
+[![License: ${license}](https://img.shields.io/badge/License-${license}.svg)]
 
 ## Description
 
@@ -107,10 +117,10 @@ ${contribute}
 ## Testing
 ${test}
 
-## Contact
-For futher information/support for the application, contact info is posted below
-### Email: lawrsblundo22@outlook.com
-### GitHub: ![GitHub Homepage](https://github.com/LawrenceSB24)
+## Questions
+If you have any questions about the application, please contact me at:
+### Email: ${email}
+### GitHub: ![GitHub Homepage](${Github})
 
 ## License
 This application and its contents are licensed under the ${license}
