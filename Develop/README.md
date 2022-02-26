@@ -1,11 +1,11 @@
 
-# Baseball Team Generator
+# Turkey Farmer
 
-![License: MIT License](https://img.shields.io/badge/License-MIT License.svg)
+[![License: BSD-2--Clause-"Simplified"-License](https://img.shields.io/badge/License-BSD-2--Clause-"Simplified"-License.svg)]
 
 ## Description
 
-A random team generator that will create baseball teams for different counties
+This is a rudimentary game application that allows you to play as a turkey and play a game of tag with other players. The main goal is to catch and turn all the players into turkies before time runs out. It functions as a combination of tag and a zombie game. Possibly a future group project idea depending on the information gathering aquired over the next few months and the man power behind it.
 
 ## Table of Contents
 
@@ -17,21 +17,21 @@ A random team generator that will create baseball teams for different counties
 - [License](#Licence)
 
 ## Installation
-Run "npm i inquirer" to install the Inquirer package and "npm init" to create a package.json for your dependencies before you install your packages.
+You will need to install a few packages. This will use the Inquirer package, some vanilla Javascript, possibly some classes added to improve functionality, and...thats all I can think of for the time being. As stated, this is still in the rudimentary process.
 
 ## Usage
-Simply run "node index.js" in the command file to run the application.
+You must have a command-line product (Git bach and Powershell are good examples), then run `node index.js` to start the application.
 
 ## Future-Contributions
-Contact me at my GitHub page or my email
+Message any possible contirbutions to either my GitHub page or direcly email me.
 
 ## Testing
-run "npm test" in the command line
+You can either run `npm test` or `node index.js` to test the functionality of the code.
 
-## Contact
-For futher information/support for the application, contact info is posted below
-### Email: lawrsblundo22@outlook.com
-### GitHub: ![GitHub Homepage](https://github.com/LawrenceSB24)
+## Questions
+If you have any questions about the application, please contact me at:
+### Email: johnny.smith@gmail.com
+### GitHub: ![GitHub Homepage](JApple12)
 
 ## License
-This application and its contents are licensed under the MIT License
+This application and its contents are licensed under the BSD-2--Clause-"Simplified"-License
