@@ -87,5 +87,5 @@ There will be a sample README and (If everything goes according to plan) a video
 ## Questions
 If you have any questions regarding this application or how you can further contribute to the improvement of the application, then you can contact me at:
 
-Email: lawrs22@gmail.com
-![GitHub](https://github.com/LawrenceSB24)
+#### Email: lawrs22@gmail.com
+#### [GitHub](https://github.com/LawrenceSB24)
