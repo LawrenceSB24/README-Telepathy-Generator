@@ -51,19 +51,19 @@ inquire
             name: 'license',
             choices: [
                 "None",
-                "Apache_license_2.0",
-                "GNU_General_Public_License_v3.0",
-                "MIT_License",
-                "BSD_2-Clause_'Simplified'_License",
-                "BSD_3-Clause_'New'_or_'Revised'_License",
-                "Boost_Software_License_1.0",
-                "Creative_Commons_Zero_v1.0_Universal",
-                "Eclipse_Public_License",
-                "GNU_Affero_General_Public_License_v3.0",
-                "GNU_General_Public_License_v2.0",
-                "GNU_Lesser_General Public_License_v2.1",
-                "Mozilla_Public_License 2.0",
-                "The_Unlicensed"
+                "Apache-license-2.0",
+                "GNU-General-Public-License-v3.0",
+                "MIT-License",
+                "BSD-2--Clause-'Simplified'-License",
+                "BSD-3--Clause-'New'-or-'Revised'-License",
+                "Boost-Software-License-1.0",
+                "Creative-Commons-Zero-v1.0-Universal",
+                "Eclipse-Public-License",
+                "GNU-Affero-General-Public-License-v3.0",
+                "GNU-General-Public-License-v2.0",
+                "GNU-Lesser-General Public-License-v2.1",
+                "Mozilla-Public-License-2.0",
+                "The-Unlicensed"
             ]
         },
         // Contact information for Questions section
@@ -75,11 +75,13 @@ inquire
         {
             type: 'input',
             message: 'What is your GitHub username(?): ',
-            name: 'Github'
+            name: 'github'
         },
-        // {
-        //     type: 'input'
-        // }
+        {
+            type: 'input',
+            message: 'What is the name of your repo(?): ',
+            name: 'repo'
+        }
     ])
 // Conditions for README file to be written
 .then((answers) => {
@@ -90,11 +92,11 @@ inquire
 });
 
 // function to generate README file based on input given by the user
-const generateREADME = ({title, description, installation, usage, contribute, test, license, email, Github}) =>
-`
-# ${title}
+const generateREADME = ({title, description, installation, usage, contribute, test, license, email, github, repo}) =>
+`# ${title}
 
-![GitHub](https://img.shields.io/badge/License-${license}.svg)
+![License](https://img.shields.io/badge/License-${license}.svg)
+![GitHub](https://img.shields.io/github/license/${github}/${repo})
 
 ## Description
 
@@ -102,12 +104,12 @@ ${description}
 
 ## Table of Contents
 
-[Installation](#Installation)
-[Usage](#Usage)
-[Future-Contributions](#Future-Contributions)
-[Contact](#Contact)
-[Testing](#Test)
-[License](#Licence)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Future-Contributions](#Future-Contributions)
+- [Contact](#Contact)
+- [Testing](#Test)
+- [License](#Licence)
 
 ## Installation
 ${installation}
@@ -124,11 +126,10 @@ ${test}
 ## Questions
 If you have any questions about the application, please contact me at:
 ### Email: ${email}
-### GitHub: ![GitHub Homepage](${Github})
+### GitHub: https://github.com/${github}
 
 ## License
-This application and its contents are licensed under the ${license}
-`
+This application and its contents are licensed under the ${license}`
 
 // List of badges for present license
 // Apache: [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -145,3 +146,4 @@ This application and its contents are licensed under the ${license}
 // Mozilla: [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 // Unlicensed: [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
  
+
