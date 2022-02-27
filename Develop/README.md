@@ -1,11 +1,11 @@
+# Shopping List
 
-# Turkey Farmer
-
-[![License: BSD-2--Clause-"Simplified"-License](https://img.shields.io/badge/License-BSD-2--Clause-"Simplified"-License.svg)]
+![License](https://img.shields.io/badge/License-MIT-License.svg)
+![GitHub](https://img.shields.io/github/license/JBenny56/Shopping-List)
 
 ## Description
 
-This is a rudimentary game application that allows you to play as a turkey and play a game of tag with other players. The main goal is to catch and turn all the players into turkies before time runs out. It functions as a combination of tag and a zombie game. Possibly a future group project idea depending on the information gathering aquired over the next few months and the man power behind it.
+This is a simple application that allows the user to save specific items for a shopping trip through answers to prompts
 
 ## Table of Contents
 
@@ -17,21 +17,21 @@ This is a rudimentary game application that allows you to play as a turkey and p
 - [License](#Licence)
 
 ## Installation
-You will need to install a few packages. This will use the Inquirer package, some vanilla Javascript, possibly some classes added to improve functionality, and...thats all I can think of for the time being. As stated, this is still in the rudimentary process.
+To install all the necessary packages, in this case Inquirer, type in `npm i inquirer` in the command line
 
 ## Usage
-You must have a command-line product (Git bach and Powershell are good examples), then run `node index.js` to start the application.
+Once started, the application will generate a series of prompts asking the user about the details of their shopping trip. Once the details have been entered, the application will then stroe the information into a consise list based on the criteria the user has submitted
 
 ## Future-Contributions
-Message any possible contirbutions to either my GitHub page or direcly email me.
+Any further contributions to the application's development can be discussed on GitHub or directly through email
 
 ## Testing
-You can either run `npm test` or `node index.js` to test the functionality of the code.
+Simply run `npm test` or `node index.js` in the command line
 
 ## Questions
 If you have any questions about the application, please contact me at:
-### Email: johnny.smith@gmail.com
-### GitHub: ![GitHub Homepage](JApple12)
+### Email: john.benson@gmail.com
+### GitHub: https://github.com/JBenny56
 
 ## License
-This application and its contents are licensed under the BSD-2--Clause-"Simplified"-License
+This application and its contents are licensed under the MIT-License
