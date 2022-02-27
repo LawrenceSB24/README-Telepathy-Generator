@@ -1,7 +1,5 @@
 # README Telepathy Generator
 
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-
 Greetings! Welcome to the README telepathy generator!
 
 
@@ -53,6 +51,10 @@ THEN I am taken to the corresponding section of the README
 ```
 
 Now the criteria section is formatted to make it easier to read. With that our of the way, time to head into the actual functionality.
+
+=========================================================================
+
+Video demonstration of README generator: https://drive.google.com/file/d/1ApsaaRH46Qep1S54vziWI47fvflXfcOF/view
 
 =========================================================================
 
