@@ -54,7 +54,7 @@ Now the criteria section is formatted to make it easier to read. With that our o
 
 =========================================================================
 
-Video demonstration of README generator: https://drive.google.com/file/d/1ApsaaRH46Qep1S54vziWI47fvflXfcOF/view
+Video demonstration of README generator: [Professional README Generator Demonstration](https://drive.google.com/file/d/1ApsaaRH46Qep1S54vziWI47fvflXfcOF/view)
 
 =========================================================================
 
@@ -84,7 +84,6 @@ After choosing the license, then the badge that corresponds with the specific li
 
 Once everything has been entered in, then the generator will create a professional README file with the message "README generated" produced in the command line.
 
-There will be a sample README and (If everything goes according to plan) a video that will showcase the README generator itself
 ==================================================================
 
 ## Questions
